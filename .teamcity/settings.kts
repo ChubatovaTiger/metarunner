@@ -34,6 +34,7 @@ object Mr : BuildType({
     name = "mr"
 
     params {
+        param("env.JAVA_HOMEs", "s")
         param("mr_defpar", "1")
     }
 
