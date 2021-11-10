@@ -6,6 +6,7 @@
       <param name="mr_defpar" value="1" />
       <param name="mr_NONdefpar" value="1" />
       <param name="s" value="values" />
+      <param name="USEDAEMON" value="true" />
     </parameters>
     <build-runners>
       <runner name="" type="simpleRunner">
