@@ -38,7 +38,7 @@ object Buildcnf : BuildType({
         step {
             type = "Metarunner_Mr"
             param("githubtokenroot", "credentialsJSON:4b7d9c29-fd7e-47df-b48f-c2bae8c224d2")
-            param("USE_DAEMON", "true")
+           
         }
         script {
             scriptContent = "n"
