@@ -41,7 +41,7 @@ object FromMR : BuildType({
             type = "Metarunner0_BaseMR0"
             param("defPar1", "5")
             param("nondefPar1", "4")
-            param("nondefPar2", "9")
+           
         }
     }
 })
