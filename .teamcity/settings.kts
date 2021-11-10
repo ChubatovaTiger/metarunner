@@ -40,7 +40,6 @@ object FromMR : BuildType({
         step {
             type = "Metarunner0_BaseMR0"
             param("defPar1", "5")
-            param("nondefPar1", "4")
            
         }
     }
