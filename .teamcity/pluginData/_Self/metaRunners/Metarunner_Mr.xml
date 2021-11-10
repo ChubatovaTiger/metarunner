@@ -4,6 +4,7 @@
     <parameters>
       <param name="githubtokenroot" value="credentialsJSON:ed5278a7-0b5a-4e37-a4b5-a6b324f11ea2" spec="password display='normal'" />
       <param name="mr_defpar" value="1" />
+      <param name="mr_NONdefpar" value="1" />
       <param name="s" value="values" />
     </parameters>
     <build-runners>
