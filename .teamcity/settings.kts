@@ -33,6 +33,16 @@ project {
 
 object Buildcnf : BuildType({
     name = "buildcnf"
+
+    steps {
+        step {
+            type = "Metarunner_Mr"
+            executionMode = BuildStep.ExecutionMode.DEFAULT
+            param("githubtokenroot", "credentialsJSON:4b7d9c29-fd7e-47df-b48f-c2bae8c224d2")
+            param("s", "values")
+            param("mr_defpar", "1")
+        }
+    }
 })
 
 object Mr : BuildType({
