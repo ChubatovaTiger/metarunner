@@ -28,7 +28,12 @@ version = "2021.1"
 project {
 
     buildType(Mr)
+    buildType(Buildcnf)
 }
+
+object Buildcnf : BuildType({
+    name = "buildcnf"
+})
 
 object Mr : BuildType({
     name = "mr"
